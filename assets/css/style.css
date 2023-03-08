@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Poppins:wght@400;600&display=swap');
 
 * {
     margin: 0;
@@ -16,7 +16,6 @@ header {
     background-size: cover;
     color: #FFF;
 
-    /*padding: 27rem 8.8rem;*/
     padding-top: 27rem;
     padding-left: 8.8rem;
 }
@@ -39,25 +38,24 @@ span {
 
 .botao {
     position: absolute;
-    width: 364px;
-    height: 70px;
-
-    position: absolute;
-    left: 7.69%;
-    right: 38.19%;
-    top: 11.43%;
-    bottom: 12.86%;
+    width:  36.4rem;
+    height: 7rem;
+    left:   8.8rem;
+    top:    53.3rem;
 
     font-family: 'Montserrat';
-    font-style: normal;
+    font-style:  normal;
     font-weight: 400;
-    font-size: 35px;
-    line-height: 52px;
+    font-size:   3.5rem;
+    line-height: 5.2rem;
+    
+    padding-top:  0.8rem;
+    padding-left: 2.8rem;
 
-    color: #FFFFFF;
+    color: #FFF;
 
     background: linear-gradient(270deg, rgba(0, 0, 70, 0.9) 0%, rgba(28, 181, 224, 0.9) 100%);
-    border-radius: 5px;
+    border-radius: 0.5rem;
     
     text-decoration: none;
 }
