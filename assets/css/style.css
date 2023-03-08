@@ -1,5 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+header {
+    height: 100vh;
+    background-image: url('../images/background.jpg');
+    background-size: cover;
+    color: #FFF;
+
+    /*padding: 27rem 8.8rem;*/
+    padding-top: 27rem;
+    padding-left: 8.8rem;
+}
+
 h1 {
-    font-size: 3.75rem;
-    font-weight: 700;
-    color: #fff;
+    font-family: 'Poppins';
+    font-size: 6rem;
+    font-weight: 800;
+    color: #FFF;
+}
+
+img {
+    border-radius: 100%;
+}
+
+span {
+    font-family: 'Montserrat';
+    font-size: 4.5rem;
+}
+
+.botao {
+    position: absolute;
+    width: 364px;
+    height: 70px;
+
+    position: absolute;
+    left: 7.69%;
+    right: 38.19%;
+    top: 11.43%;
+    bottom: 12.86%;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 52px;
+
+    color: #FFFFFF;
+
+    background: linear-gradient(270deg, rgba(0, 0, 70, 0.9) 0%, rgba(28, 181, 224, 0.9) 100%);
+    border-radius: 5px;
+    
+    text-decoration: none;
 }
