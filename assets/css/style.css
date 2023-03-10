@@ -12,12 +12,16 @@
 
 header {
     height: 100vh;
+    position: relative;
+    bottom: 0rem;
+    left: 0;
     background-image: url('../images/background.jpg');
     background-size: cover;
     color: #FFF;
 
     padding-top: 27rem;
     padding-left: 8.8rem;
+    
 }
 
 h1 {
@@ -27,21 +31,64 @@ h1 {
     color: #FFF;
 }
 
-img {
-    border-radius: 100%;
-}
-
 span {
     font-family: 'Montserrat';
     font-size: 4.5rem;
 }
 
-.botao {
+.botao1 {
     position: absolute;
     width:  36.4rem;
     height: 7rem;
     left:   8.8rem;
     top:    53.3rem;
+
+    font-family: 'Montserrat';
+    font-style:  normal;
+    font-weight: 400;
+    font-size:   3.5rem;
+    line-height: 5.2rem;
+    
+    padding-top:  0.8rem;
+    padding-left: 2.8rem;
+
+    color: #FFF;
+
+    background: linear-gradient(270deg, rgba(0, 0, 70, 0.9) 0%, rgba(28, 181, 224, 0.9) 100%);
+    border-radius: 0.5rem;
+    
+    text-decoration: none;
+}
+
+img {
+    border-radius: 100%;
+    width: 36.4rem;
+    height: 36.4rem;
+}
+
+section {
+    height: 100vh;
+    padding-top:  5.5rem;
+    padding-left: 8.8rem;
+}
+
+p{
+    font-family: 'Poppins';
+    font-size: 2.8rem;
+    font-weight: 400;
+    color: #000;
+
+    position: absolute;
+    left:   51.5rem;
+    top:    92.3rem;
+}
+
+.botao2 {
+    position: absolute;
+    width:  36.4rem;
+    height: 7rem;
+    left:   51.5rem;
+    top:    115.3rem;
 
     font-family: 'Montserrat';
     font-style:  normal;
